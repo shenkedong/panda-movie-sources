@@ -1,33 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-31T09:54:39.394723+00:00",
+  "generatedAt": "2026-05-31T11:02:31.613015+00:00",
   "sources": [
     {
-      "id": "baofeng-cms",
-      "name": "暴风采集",
-      "type": "cms",
-      "url": "https://bfzyapi.com/api.php/provide/vod",
+      "id": "youhunwl-tvapp-121",
+      "name": "youhunwl/TVAPP 备用122",
+      "type": "tvbox",
+      "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
       "enabled": true,
       "score": 95,
-      "note": "JSON CMS, probed from gaotianliuyun/gao"
-    },
-    {
-      "id": "suoni-cms",
-      "name": "索尼采集",
-      "type": "cms",
-      "url": "https://suoniapi.com/api.php/provide/vod",
-      "enabled": true,
-      "score": 85,
-      "note": "JSON CMS, probed from gaotianliuyun/gao"
-    },
-    {
-      "id": "liangzi-cms",
-      "name": "量子采集",
-      "type": "cms",
-      "url": "https://cj.lziapi.com/api.php/provide/vod",
-      "enabled": true,
-      "score": 80,
-      "note": "JSON CMS, probed from gaotianliuyun/gao"
+      "note": "136 sites, 30 CMS direct, 102 spider, 19 parsers",
+      "capability": "tvbox-cms",
+      "clientUsable": true,
+      "siteCount": 136,
+      "cmsSiteCount": 30,
+      "spiderSiteCount": 102
     },
     {
       "id": "feimao",
@@ -35,8 +22,27 @@
       "type": "tvbox",
       "url": "http://xn--z7x900a.net/tv",
       "enabled": true,
-      "score": 70,
-      "note": "Required direct config"
+      "score": 84,
+      "note": "50 sites, 0 CMS direct, 50 spider, 4 parsers",
+      "capability": "tvbox-spider",
+      "clientUsable": false,
+      "siteCount": 50,
+      "cmsSiteCount": 0,
+      "spiderSiteCount": 50
+    },
+    {
+      "id": "fantaiying-backup-1",
+      "name": "饭太硬接口 备用1",
+      "type": "tvbox",
+      "url": "https://qist.wyfc.qzz.io/fty.json",
+      "enabled": true,
+      "score": 76,
+      "note": "49 sites, 0 CMS direct, 49 spider, 0 parsers",
+      "capability": "tvbox-spider",
+      "clientUsable": false,
+      "siteCount": 49,
+      "cmsSiteCount": 0,
+      "spiderSiteCount": 49
     },
     {
       "id": "qist-tvbox-19",
@@ -44,35 +50,13 @@
       "type": "tvbox",
       "url": "http://home.jundie.top:81/top98.json",
       "enabled": true,
-      "score": 30,
-      "note": "Discovered from qist/tvbox README"
-    },
-    {
-      "id": "qist-tvbox-28",
-      "name": "qist/tvbox 备用29",
-      "type": "tvbox",
-      "url": "https://qist.wyfc.qzz.io/xiaosa/api.json",
-      "enabled": true,
-      "score": 30,
-      "note": "Discovered from qist/tvbox README"
-    },
-    {
-      "id": "qist-tvbox-30",
-      "name": "qist/tvbox 备用31",
-      "type": "tvbox",
-      "url": "https://qist.wyfc.qzz.io/fty.json",
-      "enabled": true,
-      "score": 30,
-      "note": "Discovered from qist/tvbox README"
-    },
-    {
-      "id": "youhunwl-tvapp-104",
-      "name": "youhunwl/TVAPP 备用105",
-      "type": "tvbox",
-      "url": "https://9280.kstore.vip/newwex.json",
-      "enabled": true,
-      "score": 30,
-      "note": "Discovered from youhunwl/TVAPP README"
+      "score": 50,
+      "note": "24 sites, 0 CMS direct, 24 spider, 15 parsers",
+      "capability": "tvbox-spider",
+      "clientUsable": false,
+      "siteCount": 24,
+      "cmsSiteCount": 0,
+      "spiderSiteCount": 24
     },
     {
       "id": "youhunwl-tvapp-106",
@@ -80,35 +64,13 @@
       "type": "tvbox",
       "url": "https://www.yingm.cc/dm/dm.json",
       "enabled": true,
-      "score": 30,
-      "note": "Discovered from youhunwl/TVAPP README"
-    },
-    {
-      "id": "youhunwl-tvapp-116",
-      "name": "youhunwl/TVAPP 备用117",
-      "type": "tvbox",
-      "url": "https://dxawi.github.io/0/0.json",
-      "enabled": true,
-      "score": 30,
-      "note": "Discovered from youhunwl/TVAPP README"
-    },
-    {
-      "id": "youhunwl-tvapp-121",
-      "name": "youhunwl/TVAPP 备用122",
-      "type": "tvbox",
-      "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
-      "enabled": true,
-      "score": 30,
-      "note": "Discovered from youhunwl/TVAPP README"
-    },
-    {
-      "id": "youhunwl-tvapp-128",
-      "name": "youhunwl/TVAPP 备用129",
-      "type": "tvbox",
-      "url": "https://cnb.cool/fish2018/duanju/-/git/raw/main/tvbox.json",
-      "enabled": true,
-      "score": 30,
-      "note": "Discovered from youhunwl/TVAPP README"
+      "score": 50,
+      "note": "27 sites, 0 CMS direct, 27 spider, 20 parsers",
+      "capability": "tvbox-spider",
+      "clientUsable": false,
+      "siteCount": 27,
+      "cmsSiteCount": 0,
+      "spiderSiteCount": 27
     },
     {
       "id": "youhunwl-tvapp-131",
@@ -116,8 +78,69 @@
       "type": "tvbox",
       "url": "https://android.lushunming.qzz.io/json/index.json",
       "enabled": true,
-      "score": 30,
-      "note": "Discovered from youhunwl/TVAPP README"
+      "score": 50,
+      "note": "47 sites, 0 CMS direct, 47 spider, 35 parsers",
+      "capability": "tvbox-spider",
+      "clientUsable": false,
+      "siteCount": 47,
+      "cmsSiteCount": 0,
+      "spiderSiteCount": 47
+    },
+    {
+      "id": "qist-tvbox-28",
+      "name": "qist/tvbox 备用29",
+      "type": "tvbox",
+      "url": "https://qist.wyfc.qzz.io/xiaosa/api.json",
+      "enabled": true,
+      "score": 49,
+      "note": "126 sites, 0 CMS direct, 126 spider, 9 parsers",
+      "capability": "tvbox-spider",
+      "clientUsable": false,
+      "siteCount": 126,
+      "cmsSiteCount": 0,
+      "spiderSiteCount": 126
+    },
+    {
+      "id": "youhunwl-tvapp-116",
+      "name": "youhunwl/TVAPP 备用117",
+      "type": "tvbox",
+      "url": "https://dxawi.github.io/0/0.json",
+      "enabled": true,
+      "score": 49,
+      "note": "48 sites, 3 CMS direct, 45 spider, 0 parsers",
+      "capability": "tvbox-cms",
+      "clientUsable": true,
+      "siteCount": 48,
+      "cmsSiteCount": 3,
+      "spiderSiteCount": 45
+    },
+    {
+      "id": "youhunwl-tvapp-128",
+      "name": "youhunwl/TVAPP 备用129",
+      "type": "tvbox",
+      "url": "https://cnb.cool/fish2018/duanju/-/git/raw/main/tvbox.json",
+      "enabled": true,
+      "score": 44,
+      "note": "22 sites, 0 CMS direct, 22 spider, 4 parsers",
+      "capability": "tvbox-spider",
+      "clientUsable": false,
+      "siteCount": 22,
+      "cmsSiteCount": 0,
+      "spiderSiteCount": 22
+    },
+    {
+      "id": "youhunwl-tvapp-104",
+      "name": "youhunwl/TVAPP 备用105",
+      "type": "tvbox",
+      "url": "https://9280.kstore.vip/newwex.json",
+      "enabled": true,
+      "score": 40,
+      "note": "85 sites, 0 CMS direct, 85 spider, 0 parsers",
+      "capability": "tvbox-spider",
+      "clientUsable": false,
+      "siteCount": 85,
+      "cmsSiteCount": 0,
+      "spiderSiteCount": 85
     }
   ],
   "homeSections": [
