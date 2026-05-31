@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-31T07:05:26.568981+00:00",
+  "generatedAt": "2026-05-31T07:21:14.222560+00:00",
   "sources": [
     {
       "id": "baofeng-cms",
@@ -28,6 +28,216 @@
       "enabled": true,
       "score": 120,
       "note": "20 CMS items probed"
+    }
+  ],
+  "homeSections": [
+    {
+      "title": "热门电影",
+      "items": [
+        {
+          "title": "寒战1994",
+          "type": "movie",
+          "year": "2026",
+          "aliases": null
+        },
+        {
+          "title": "末日逃生2：迁移",
+          "type": "movie",
+          "year": "2026",
+          "aliases": [
+            "末日逃生2"
+          ]
+        },
+        {
+          "title": "导火线",
+          "type": "movie",
+          "year": "2025",
+          "aliases": null
+        },
+        {
+          "title": "真人快打2",
+          "type": "movie",
+          "year": "2026",
+          "aliases": null
+        },
+        {
+          "title": "怒兽出笼",
+          "type": "movie",
+          "year": "2026",
+          "aliases": null
+        },
+        {
+          "title": "哪吒之魔童闹海",
+          "type": "movie",
+          "year": "2025",
+          "aliases": null
+        },
+        {
+          "title": "射雕英雄传：侠之大者",
+          "type": "movie",
+          "year": "2025",
+          "aliases": [
+            "射雕英雄传"
+          ]
+        },
+        {
+          "title": "酱园弄·悬案",
+          "type": "movie",
+          "year": "2025",
+          "aliases": [
+            "酱园弄"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "热播电视剧",
+      "items": [
+        {
+          "title": "藏海传",
+          "type": "series",
+          "year": "2025",
+          "aliases": null
+        },
+        {
+          "title": "庆余年 第二季",
+          "type": "series",
+          "year": "2024",
+          "aliases": [
+            "庆余年2"
+          ]
+        },
+        {
+          "title": "凡人修仙传",
+          "type": "series",
+          "year": "2025",
+          "aliases": null
+        },
+        {
+          "title": "都市古医仙",
+          "type": "series",
+          "year": "2026",
+          "aliases": null
+        },
+        {
+          "title": "游戏里的生死契",
+          "type": "series",
+          "year": "2026",
+          "aliases": null
+        },
+        {
+          "title": "错付",
+          "type": "series",
+          "year": "2026",
+          "aliases": null
+        },
+        {
+          "title": "耀眼",
+          "type": "series",
+          "year": "2026",
+          "aliases": null
+        },
+        {
+          "title": "太行谣",
+          "type": "series",
+          "year": "2026",
+          "aliases": null
+        }
+      ]
+    },
+    {
+      "title": "综艺精选",
+      "items": [
+        {
+          "title": "歌手2025",
+          "type": "variety",
+          "year": "2025",
+          "aliases": [
+            "歌手"
+          ]
+        },
+        {
+          "title": "乘风2025",
+          "type": "variety",
+          "year": "2025",
+          "aliases": [
+            "乘风"
+          ]
+        },
+        {
+          "title": "开始推理吧 第三季",
+          "type": "variety",
+          "year": "2025",
+          "aliases": [
+            "开始推理吧"
+          ]
+        },
+        {
+          "title": "奔跑吧 第十三季",
+          "type": "variety",
+          "year": "2025",
+          "aliases": [
+            "奔跑吧"
+          ]
+        },
+        {
+          "title": "幸福来敲门2012",
+          "type": "variety",
+          "year": "2026",
+          "aliases": null
+        },
+        {
+          "title": "超燃青春的合唱",
+          "type": "variety",
+          "year": "2026",
+          "aliases": null
+        }
+      ]
+    },
+    {
+      "title": "动漫更新",
+      "items": [
+        {
+          "title": "凡人修仙传",
+          "type": "anime",
+          "year": "2025",
+          "aliases": null
+        },
+        {
+          "title": "斗破苍穹 年番",
+          "type": "anime",
+          "year": "2025",
+          "aliases": [
+            "斗破苍穹"
+          ]
+        },
+        {
+          "title": "仙逆",
+          "type": "anime",
+          "year": "2025",
+          "aliases": null
+        },
+        {
+          "title": "吞噬星空",
+          "type": "anime",
+          "year": "2025",
+          "aliases": null
+        },
+        {
+          "title": "灵笼 第二季",
+          "type": "anime",
+          "year": "2025",
+          "aliases": [
+            "灵笼"
+          ]
+        },
+        {
+          "title": "都市古仙医",
+          "type": "anime",
+          "year": "2026",
+          "aliases": null
+        }
+      ]
     }
   ]
 }
