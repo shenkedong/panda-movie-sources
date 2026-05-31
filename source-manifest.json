@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-31T07:21:14.222560+00:00",
+  "generatedAt": "2026-05-31T09:54:39.394723+00:00",
   "sources": [
     {
       "id": "baofeng-cms",
@@ -8,8 +8,8 @@
       "type": "cms",
       "url": "https://bfzyapi.com/api.php/provide/vod",
       "enabled": true,
-      "score": 135,
-      "note": "20 CMS items probed"
+      "score": 95,
+      "note": "JSON CMS, probed from gaotianliuyun/gao"
     },
     {
       "id": "suoni-cms",
@@ -17,8 +17,8 @@
       "type": "cms",
       "url": "https://suoniapi.com/api.php/provide/vod",
       "enabled": true,
-      "score": 125,
-      "note": "20 CMS items probed"
+      "score": 85,
+      "note": "JSON CMS, probed from gaotianliuyun/gao"
     },
     {
       "id": "liangzi-cms",
@@ -26,8 +26,98 @@
       "type": "cms",
       "url": "https://cj.lziapi.com/api.php/provide/vod",
       "enabled": true,
-      "score": 120,
-      "note": "20 CMS items probed"
+      "score": 80,
+      "note": "JSON CMS, probed from gaotianliuyun/gao"
+    },
+    {
+      "id": "feimao",
+      "name": "肥猫接口",
+      "type": "tvbox",
+      "url": "http://xn--z7x900a.net/tv",
+      "enabled": true,
+      "score": 70,
+      "note": "Required direct config"
+    },
+    {
+      "id": "qist-tvbox-19",
+      "name": "qist/tvbox 备用20",
+      "type": "tvbox",
+      "url": "http://home.jundie.top:81/top98.json",
+      "enabled": true,
+      "score": 30,
+      "note": "Discovered from qist/tvbox README"
+    },
+    {
+      "id": "qist-tvbox-28",
+      "name": "qist/tvbox 备用29",
+      "type": "tvbox",
+      "url": "https://qist.wyfc.qzz.io/xiaosa/api.json",
+      "enabled": true,
+      "score": 30,
+      "note": "Discovered from qist/tvbox README"
+    },
+    {
+      "id": "qist-tvbox-30",
+      "name": "qist/tvbox 备用31",
+      "type": "tvbox",
+      "url": "https://qist.wyfc.qzz.io/fty.json",
+      "enabled": true,
+      "score": 30,
+      "note": "Discovered from qist/tvbox README"
+    },
+    {
+      "id": "youhunwl-tvapp-104",
+      "name": "youhunwl/TVAPP 备用105",
+      "type": "tvbox",
+      "url": "https://9280.kstore.vip/newwex.json",
+      "enabled": true,
+      "score": 30,
+      "note": "Discovered from youhunwl/TVAPP README"
+    },
+    {
+      "id": "youhunwl-tvapp-106",
+      "name": "youhunwl/TVAPP 备用107",
+      "type": "tvbox",
+      "url": "https://www.yingm.cc/dm/dm.json",
+      "enabled": true,
+      "score": 30,
+      "note": "Discovered from youhunwl/TVAPP README"
+    },
+    {
+      "id": "youhunwl-tvapp-116",
+      "name": "youhunwl/TVAPP 备用117",
+      "type": "tvbox",
+      "url": "https://dxawi.github.io/0/0.json",
+      "enabled": true,
+      "score": 30,
+      "note": "Discovered from youhunwl/TVAPP README"
+    },
+    {
+      "id": "youhunwl-tvapp-121",
+      "name": "youhunwl/TVAPP 备用122",
+      "type": "tvbox",
+      "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+      "enabled": true,
+      "score": 30,
+      "note": "Discovered from youhunwl/TVAPP README"
+    },
+    {
+      "id": "youhunwl-tvapp-128",
+      "name": "youhunwl/TVAPP 备用129",
+      "type": "tvbox",
+      "url": "https://cnb.cool/fish2018/duanju/-/git/raw/main/tvbox.json",
+      "enabled": true,
+      "score": 30,
+      "note": "Discovered from youhunwl/TVAPP README"
+    },
+    {
+      "id": "youhunwl-tvapp-131",
+      "name": "youhunwl/TVAPP 备用132",
+      "type": "tvbox",
+      "url": "https://android.lushunming.qzz.io/json/index.json",
+      "enabled": true,
+      "score": 30,
+      "note": "Discovered from youhunwl/TVAPP README"
     }
   ],
   "homeSections": [
