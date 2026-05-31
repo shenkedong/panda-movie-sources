@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-31T06:45:11.174583+00:00",
+  "sources": [
+    {
+      "id": "baidu-cms",
+      "name": "百度采集",
+      "type": "cms",
+      "url": "https://api.apibdzy.com/api.php/provide/vod",
+      "enabled": true,
+      "score": 120,
+      "note": "20 CMS items probed"
+    },
+    {
+      "id": "baofeng-cms",
+      "name": "暴风采集",
+      "type": "cms",
+      "url": "https://bfzyapi.com/api.php/provide/vod",
+      "enabled": true,
+      "score": 110,
+      "note": "20 CMS items probed"
+    },
+    {
+      "id": "suoni-cms",
+      "name": "索尼采集",
+      "type": "cms",
+      "url": "https://suoniapi.com/api.php/provide/vod",
+      "enabled": true,
+      "score": 110,
+      "note": "20 CMS items probed"
+    },
+    {
+      "id": "gao-tvbox",
+      "name": "高天流云 TVBox",
+      "type": "tvbox",
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0821.json",
+      "enabled": true,
+      "score": 90,
+      "note": "86 sites, 11 parsers"
+    }
+  ]
+}
