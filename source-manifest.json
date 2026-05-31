@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-31T06:45:11.174583+00:00",
+  "generatedAt": "2026-05-31T06:54:48.296925+00:00",
   "sources": [
     {
       "id": "baidu-cms",
@@ -33,7 +33,7 @@
       "id": "gao-tvbox",
       "name": "高天流云 TVBox",
       "type": "tvbox",
-      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0821.json",
+      "url": "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/0821.json",
       "enabled": true,
       "score": 90,
       "note": "86 sites, 11 parsers"

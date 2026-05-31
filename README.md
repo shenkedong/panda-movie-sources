@@ -5,5 +5,5 @@
 客户端入口：
 
 ```text
-https://raw.githubusercontent.com/shenkedong/panda-movie-sources/main/source-manifest.json
+https://cdn.jsdelivr.net/gh/shenkedong/panda-movie-sources@main/source-manifest.json
 ```
